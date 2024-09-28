@@ -253,7 +253,7 @@ function handleNextBtn(){
 }
 function showScore(){
     resetPreviousQNA()
-    questionEl.innerHTML = `You'r Score is ${score} out of ${quizData.length}`
+    questionEl.innerHTML = `You're Score is ${score} out of ${quizData.length}`
     nextBtn.innerHTML = "Play Again"
     nextBtn.style.display = "block"
 }
