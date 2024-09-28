@@ -200,7 +200,17 @@ nav .logo{
     #learn2{
         background-color: transparent;
         width: 100%;
-        height: 70vh;
+        height: 100vh;
+        display: flex;
+        justify-content:right;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+    }
+    #learn3{
+        background-color: #0e102f;
+        width: 100%;
+        height: 100vh;
         display: flex;
         justify-content:right;
         flex-direction: column;
