@@ -169,7 +169,7 @@ nav .logo{
 @media only screen and (max-width: 1200px) {
     .hero h2{
         text-align: center;
-        color: rgb(16, 188, 16);
+        /* color: rgb(16, 188, 16); */
         font-size: 50px;
         margin-top: 20px;
     }
@@ -218,6 +218,6 @@ nav .logo{
         padding: 0 15px;
     }
     .answerp-mod{
-        max-width: 600px;
+        max-width: 25a0px;
     }
   }
