@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:monospace ,sans-serif;
+    box-sizing: border-box;
+    color: white;
+    scroll-behavior: smooth;
+}
+body{
+    position: relative;
+    background-color: #000020;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: #023e68; */
+    box-shadow: 0px -3px 13px 0px #5c5ccb;
+    color: white;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .logo{
+    color: #6969e6;
+    font-size: 35px;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:right;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+
+}
+.hero h2{
+    text-align: center;
+    color: orangered;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.answerp{
+    margin-top: 20px;
+    max-width: 600px;
+    background-color: rgba(95, 95, 95, 0.381);
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+.more{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.more p{
+    color: #3d3d86;
+    width: 500px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+}
+.more button{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    font-size: 80px;
+
+}
+.more ion-icon{
+    color: #00ff37;
+}
+#learn{
+    background-color: #0e102f;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content:right;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+}
+.answerp-mod{
+    margin-top: 20px;
+    max-width: 400px;
+    background-color: rgba(95, 95, 95, 0.381);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.answerp-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+#learn h2{
+    text-align: center;
+    color: rgb(16, 188, 16);
+    font-size: 30px;
+    margin-top: 40px;
+}
+#learn2{
+    background-color: transparent;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content:right;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+}
+#learn2 h2{
+    text-align: center;
+    color: rgb(16, 188, 16);
+    font-size: 20px;
+    width: 400px;
+    margin-top: 40px;
+}
+#learn3{
+    background-color: #0e102f;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content:right;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+}
+#learn3 h2{
+    text-align: center;
+    color: rgb(16, 188, 16);
+    font-size: 20px;
+    width: 400px;
+    margin-top: 40px;
+}
+
+.to-quiz{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.to-quiz h1{
+    font-size: 30px;
+    color: whitesmoke;
+}
+.to-quiz a{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: #0065e8;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 0px 4px #0149a8;
+}
+/* managing responsiveness */
+@media only screen and (max-width: 600px) {
+    .hero h2{
+        text-align: center;
+        color: rgb(16, 188, 16);
+        font-size: 50px;
+        margin-top: 100px;
+    }
+    .more p{
+
+        margin-top: 40px;
+    }
+    .hero{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content:right;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+
+    }
+    #learn{
+        background-color: #0e102f;
+        width: 100%;
+        height: 130vh;
+        display: flex;
+        justify-content:right;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+    }
+    #learn2{
+        background-color: transparent;
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content:right;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+    }
+  }
