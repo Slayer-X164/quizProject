@@ -230,15 +230,4 @@ nav .logo{
         height: 130vh;
     }
   }
-  @media only screen and (max-width:400px){
-    .hero{
-        width: 100%;
-        height: 80vh;
-        display: flex;
-        justify-content:right;
-        flex-direction: column;
-        align-items: center;
-        padding: 0 15px;
-
-    }
-  }
+ 
